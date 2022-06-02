@@ -5,7 +5,7 @@ export const Label = styled.p`
   font-size: 20px;
 `;
 
-export const List = styled.ul`
+export const ListOfButtons = styled.ul`
   display: flex;
 `;
 
@@ -32,6 +32,6 @@ export const StatItem = styled.li`
   font-size: 14px;
 `;
 
-export const Span = styled.span`
+export const Amount = styled.span`
   font-size: 14px;
 `;
