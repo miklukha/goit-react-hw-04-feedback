@@ -1,5 +1,4 @@
 import { css } from '@emotion/react';
-import { theme } from 'styles/theme';
 
 export const GlobalStyles = css`
   html {
@@ -14,7 +13,6 @@ export const GlobalStyles = css`
       'Helvetica Neue', sans-serif;
     min-height: 100vh;
     font-style: normal;
-    /* background-color: ${theme.colors.bgBody}; */
   }
 
   h1,
@@ -33,9 +31,12 @@ export const GlobalStyles = css`
     margin: 0;
   }
 
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
   }
 `;

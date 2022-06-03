@@ -1,8 +1,8 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { ListOfButtons, Item, Button } from './FeedbackOptions.styled';
 
-export function FeedbackOptions({ options, onLeaveFeedback }) {
+export function FeedbackOptions({ onLeaveFeedback }) {
   return (
     <>
       <ListOfButtons>
@@ -25,3 +25,7 @@ export function FeedbackOptions({ options, onLeaveFeedback }) {
     </>
   );
 }
+
+FeedbackOptions.propTypes = {
+  onLeaveFeedback: PropTypes.func,
+};
