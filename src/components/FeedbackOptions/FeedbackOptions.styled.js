@@ -7,10 +7,9 @@ export const ListOfButtons = styled.ul`
   margin-bottom: 20px;
 `;
 
-export const Item = styled.li``;
-
 export const Button = styled.button`
   font-size: 14px;
+  text-transform: capitalize;
 
   width: 70px;
   height: 30px;
